@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #896D6D;
+}
+
+/* Navbar */
+
+.navContainer {
+    height: 300%;
+}
+
+.hubinLink, .hubinLink:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.mainNav a, .mainNav a:hover {
+    color: #FFF;
+}
+
+.fa-house, .fa-eye, .fa-check, .fa-gear, .fa-circle-info {
+    margin-right: 12px;
+}
+
+.active {
+    background-color: #5F4B4B;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.profileNav {
+    color: #FFF;
+    background-color: #5F4B4B;
+}
