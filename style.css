@@ -11,11 +11,7 @@ body {
 
 /* Navbar */
 
-.navContainer {
-    height: 300%;
-}
-
-.hubinLink, .hubinLink:hover {
+.hubinLink, .hubinLink:hover, .logoutLink, .logoutLink:hover {
     color: #FFF;
     text-decoration: none;
 }
@@ -26,6 +22,18 @@ body {
 
 .mainNav a, .mainNav a:hover {
     color: #FFF;
+}
+
+.hubinBox {
+    height: 200px;
+}
+
+.mainBox {
+    height: 200px;
+}
+
+.secondBox {
+    height: 139px;
 }
 
 .fa-house, .fa-eye, .fa-check, .fa-gear, .fa-circle-info {
@@ -41,4 +49,13 @@ body {
 .profileNav {
     color: #FFF;
     background-color: #5F4B4B;
+    height: 70px;
+}
+
+.unameNav {
+    margin-left: 1%;
+}
+
+.containerProfile {
+    padding: 15px 0 0 5px;
 }

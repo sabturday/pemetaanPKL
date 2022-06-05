@@ -17,29 +17,34 @@
     <body>
 
         <!-- Navbar -->
-        <div class="d-inline-flex flex-column border-end navContainer">
-            <div class="p-2 bd-highlight hubinLinkDiv">
+        <div class="d-inline-flex flex-column border-end">
+            <div class="p-2 bd-highlight hubinBox" style="height: 200px">
                 <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
             </div>
-            <div class="p-2 bd-highlight border-bottom align-self-start">
+            <div class="p-2 bd-highlight border-bottom mainBox">
                 <nav class="nav flex-column mainNav">
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>Home</a>
                     <a class="nav-link" href="#"><i class="fa-solid fa-eye"></i>Lihat Data Pemetaan</a>
                     <a class="nav-link" href="#"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
                 </nav>
             </div>
-            <div class="p-2 bd-highlight border-bottom">
+            <div class="p-2 bd-highlight secondBox">
                 <nav class="nav flex-column mainNav">
                     <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i>Pengaturan</a>
                     <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i>Tentang</a>
                 </nav>
             </div>
-            <div class="p-2 bd-highlight">
-                <i class="fa-solid fa-user"></i>
-                <p class="unameNav">Guest</p>
-                <a><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            <div class="p-2 bd-highlight profileNav">
+                <div class="container">
+                    <div class="row row-cols-auto containerProfile">
+                        <div class="col-1"><i class="fa-solid fa-user"></i></div>
+                        <div class="col-9"><p class="unameNav">Guest</p></div>
+                        <div class="col"><a href="#" class="logoutLink"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- End Navbar -->
 
         <header></header>
         <main></main>
