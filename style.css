@@ -59,3 +59,27 @@ body {
 .containerProfile {
     padding: 15px 0 0 5px;
 }
+
+/* End Navbar */
+
+/* Main */
+
+.mainContainer {
+    padding-left: 5%;
+    color: #FFF;
+}
+
+.mainDivider {
+    width: 35%;
+}
+
+.btn-main-login {
+    background-color: #5F4B4B;
+    color: #FFF;
+    border: none;
+}
+
+.btn-main-login:hover {
+    background-color: #4d3d3d;
+    border: none;
+}
