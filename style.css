@@ -75,11 +75,55 @@ body {
 
 .btn-main-login {
     background-color: #5F4B4B;
-    color: #FFF;
     border: none;
 }
 
 .btn-main-login:hover {
     background-color: #4d3d3d;
     border: none;
+}
+
+/* End Main */
+
+/* Login Pop Up */
+
+.logInForm {
+    background-color: #5F4B4B;
+}
+
+.illustrationForm {
+    background-color: #A09393;
+}
+
+.illustrationForm img {
+    width: 470px;
+}
+
+.btn-login-form {
+    background-color: #896D6D;
+    border: none;
+}
+
+.btn-login-form:hover {
+    background-color: #7b6161;
+    border: none;
+}
+
+.bknSiswa {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.bknSiswa:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.formDivider {
+    width: 20%;
+    color: #FFF;
+}
+
+.experienceHeader {
+    color: #5F4B4B;
 }
