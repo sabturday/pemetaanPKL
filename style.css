@@ -9,6 +9,7 @@ body {
     background-color: #896D6D;
 }
 
+
 /* Navbar */
 
 .hubinLink, .hubinLink:hover, .logoutLink, .logoutLink:hover {
@@ -24,16 +25,21 @@ body {
     color: #FFF;
 }
 
+.navContainer {
+    height: 100vh;
+    width: max-content;
+}
+
 .hubinBox {
-    height: 200px;
+    height: 30vh;
 }
 
 .mainBox {
-    height: 200px;
+    height: 30vh;
 }
 
 .secondBox {
-    height: 139px;
+    height: 30vh;
 }
 
 .fa-house, .fa-eye, .fa-check, .fa-gear, .fa-circle-info {
@@ -42,14 +48,13 @@ body {
 
 .active {
     background-color: #5F4B4B;
-    width: 280px;
+    width: 250px;
     border-radius: 10px;
 }
 
 .profileNav {
     color: #FFF;
     background-color: #5F4B4B;
-    height: 70px;
 }
 
 .unameNav {
@@ -126,4 +131,61 @@ body {
 
 .experienceHeader {
     color: #5F4B4B;
+}
+
+/* End Login Pop Up */
+
+/* Option Box */
+
+.ajukanBox, .pilihBox, .hubungiBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    color: #2D254B;
+}
+
+.ajukanBox {
+    background-image: linear-gradient(rgba(203, 129, 107, 1), rgba(255, 255, 255, 1));
+}
+
+.pilihBox {
+    background-image: linear-gradient(rgba(193, 120, 120, 1), rgba(255, 255, 255, 1));
+}
+
+.hubungiBox {
+    background-image: linear-gradient(rgba(174, 188, 209, 1), rgba(255, 255, 255, 1));
+}
+
+.fa-comments, .fa-building, .fa-headset {
+    color: #FFF;
+    font-size: 50px;
+}
+
+/* End Option Box */
+
+/* Form Ajukan Industri */
+
+.btn-ajukan, .btn-reset:hover {
+    background-color: #CB816B;
+    border: none;
+}
+
+.btn-ajukan:hover {
+    background-color: #c07964;
+    border: none;
+}
+
+.btn-reset {
+    background-color: transparent;
+    border-color:#CB816B;
+}
+
+textarea {
+    resize: none;
+}
+
+/* End Form Ajukan Industri */
+
+footer {
+    font-size: 12px;
 }
