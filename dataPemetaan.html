@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ee3c6548ac.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet">
+        <title>Pemetaan PKL</title>
+    </head>
+
+    <body>
+
+        <div class="d-flex bd-highlight">
+            <!-- Navbar -->
+            <div class="flex-shrink-auto bd-highlight">
+                <div class="col-sm-auto">
+                    <div class="d-inline-flex flex-column border-end navContainer">
+                        <div class="p-2 bd-highlight hubinBox">
+                            <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
+                        </div>
+                        <div class="p-2 bd-highlight mainBox">
+                            <nav class="nav flex-column mainNav">
+                                <a class="nav-link" href="landingPageSiswa.html"><i class="fa-solid fa-house"></i>Beranda</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                                <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
+                            </nav>
+                        </div>
+                        <div class="p-2 bd-highlight border-top secondBox">
+                            <nav class="nav flex-column mainNav">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i>Pengaturan</a>
+                                <a class="nav-link" href="#"><i class="fa-solid fa-circle-info"></i>Tentang</a>
+                            </nav>
+                        </div>
+                        <div class="p-2 bd-highlight profileNav">
+                            <div class="container">
+                                <div class="row row-cols-auto containerProfile">
+                                    <div class="col-1"><i class="fa-solid fa-user"></i></div>
+                                    <div class="col-9"><p class="unameNav">Guest</p></div>
+                                    <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Navbar -->
+
+            <!-- Main -->
+            <div class="w-100 bd-highlight align-self-center">
+                <main class="mainContainer">
+                    <h1 class="fw-bold mb-3">Data Pemetaan</h1>
+                    <div class="row">
+                        <div class="col-lg-auto">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-jurusan-dropdown dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Jurusan</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">AK</a></li>
+                                    <li><a class="dropdown-item" href="#">TKJ</a></li>
+                                    <li><a class="dropdown-item" href="#">RPL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nama/Alamat Industri">
+                                <button class="btn btn-search" type="button" id="button-addon2">Cari</button>
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table table-striped mt-3 mb-3">
+                        <thead>
+                            <th scope="col">#</th>
+                            <th scope="col">Nama</th>
+                            <th scope="col">Alamat</th>
+                            <th scope="col">Jurusan</th>
+                            <th scope="col">Kuota</th>
+                            <th scope="col">Aksi</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PT. Elektro</td>
+                                <td>Jl. Soekarno Hatta</td>
+                                <td>
+                                    <ul class="listJurusan ps-0">
+                                        <li><span class="badge badge-rpl">RPL</span></li>
+                                        <li><span class="badge badge-tkj">TKJ</span></li>
+                                    </ul>
+                                </td>
+                                <td>3/4</td>
+                                <td><button class="btn btn-detail" type="button">Detail</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PT. Kimia</td>
+                                <td>Jl. Cibiru Wetan</td>
+                                <td>
+                                    <ul class="listJurusan ps-0">
+                                        <li><span class="badge badge-ak">AK</span></li>
+                                    </ul>
+                                </td>
+                                <td>4/4</td>
+                                <td><button class="btn btn-detail" type="button">Detail</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <footer class="position-absolute bottom-0 start-50 translate-middle-x"><p>&copy; Team HU13IN | Version 1.1</p></footer>
+                </main>
+            </div>
+            <!-- End Main -->
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>
