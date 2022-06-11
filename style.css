@@ -74,10 +74,6 @@ body {
     color: #5F4B4B;
 }
 
-.mainDivider {
-    width: 35%;
-}
-
 .btn-main-login {
     background-color: #5F4B4B;
     color: #FFF;
@@ -117,6 +113,15 @@ body {
     background-color: #7b6161;
     color: #FFF;
     border-color: #5F4B4B;
+}
+
+.btn-close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 15%;
+    height: 18%;
 }
 
 .bknSiswa {
@@ -242,6 +247,22 @@ thead, td {
 
 .page-link, .page-link:hover {
     color: #5F4B4B;
+}
+
+/* End Form Data Pemetaan */
+
+/* Tentang */
+
+.socmed {
+    color: #5F4B4B;
+}
+
+.socmed:hover {
+    color: #7b6161;
+}
+
+.fa-github-square, .fa-instagram-square, .fa-linkedin {
+    font-size: 20px;
 }
 
 footer {
