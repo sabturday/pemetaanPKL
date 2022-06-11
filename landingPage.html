@@ -19,7 +19,7 @@
         <div class="d-flex bd-highlight">
             <!-- Navbar -->
             <div class="flex-shrink-auto bd-highlight">
-                <div class="col-sm-auto">
+                <div class="col-sm-auto position-sticky" style="top: 0;">
                     <div class="d-inline-flex flex-column border-end navContainer">
                         <div class="p-2 bd-highlight hubinBox">
                             <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
@@ -53,19 +53,19 @@
 
             <!-- Main -->
             <div class="w-100 bd-highlight align-self-center">
-                <main class="mainContainer">
+                <main class="mainContainer p-5">
                     <h1 class="fw-bold">PRAKTEK KERJA INDUSTRI</h1>
                     <h2 class="fw-light">SMKN 13 BANDUNG</h2>
                     <hr class="mainDivider">
                     <p>Login untuk melanjutkan</p>
                     <button type="button" class="btn btn-main-login" data-bs-toggle="modal" data-bs-target="#logInPopUp">Log In</button>
-                    <footer class="position-absolute bottom-0 start-50 translate-middle-x"><p>&copy; Team HU13IN | Version 1.1</p></footer>
+                    <!--<footer class="position-absolute bottom-0 start-50 translate-middle-x"><p>&copy; Team HU13IN | Version 1.1</p></footer>-->
                 </main>
             </div>
             <!-- End Main -->
 
             <!-- Login Pop Up -->
-            <div class="modal fade" id="logInPopUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="logInPopUp" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                     <div class="modal-content border-0">
                         <div class="modal-header">
@@ -75,16 +75,16 @@
                             <div class="col-lg-6 d-flex pe-0">
                                 <div class="modal-body p-5 img d-flex align-items-center logInForm">
                                     <div class="w-100 py-0 py-md-5">
-                                        <p class="text-white">Login Siswa</p>
+                                        <p>Login Siswa</p>
                                         <hr class="formDivider">
-                                        <h2 class="text-white fw-bold">Selamat Datang!</h2>
+                                        <h2 class="fw-bold">Selamat Datang!</h2>
                                         <form method="POST">
                                             <div class="form-group mb-3">
-                                                <label class="text-white">NIS</label>
+                                                <label>NIS</label>
                                                 <input type="number" class="form-control" name="nis" maxlength="9" required>
                                             </div>
                                             <div class="form-group mb-3">
-                                                <label class="text-white">Password</label>
+                                                <label>Password</label>
                                                 <input type="password" class="form-control" name="password" required>
                                             </div>
                                             <div class="form-group">
@@ -101,7 +101,7 @@
                                 <div class="modal-body p-0 d-flex text-center d-flex align-items-center">
                                     <div class="text-start p-5">
                                         <h1 class="fw-bold text-white">EXPAND YOUR</h1>
-                                        <h1 class="fw-bold experienceHeader">EXPERIENCE.</h1>
+                                        <h1 class="fw-bold experienceHeader text-white">EXPERIENCE!</h1>
                                         <img src="assets/login.svg">
                                     </div>
                                 </div>

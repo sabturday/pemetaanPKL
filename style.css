@@ -12,9 +12,14 @@ body {
 
 /* Navbar */
 
-.hubinLink, .hubinLink:hover, .logoutLink, .logoutLink:hover {
+.hubinLink {
     color: #5F4B4B;
     text-decoration: none;
+}
+
+.hubinLink:hover {
+    color: #7b6161;
+    text-decoration: underline;
 }
 
 .fa-arrow-left {
@@ -26,9 +31,9 @@ body {
     color: #5F4B4B;
 }
 
-/*.navContainer {
+.navContainer {
     height: 100vh;
-}*/
+}
 
 .hubinBox {
     height: 33vh;
@@ -66,13 +71,11 @@ body {
 /* Main */
 
 .mainContainer {
-    padding-left: 5%;
-    padding-right: 5%;
     color: #5F4B4B;
 }
 
 .mainDivider {
-    width: 33%;
+    width: 35%;
 }
 
 .btn-main-login {
@@ -82,7 +85,7 @@ body {
 }
 
 .btn-main-login:hover {
-    background-color: #4d3d3d;
+    background-color: #7b6161;
     color: #FFF;
     border-color: #5F4B4B;
 }
@@ -92,11 +95,12 @@ body {
 /* Login Pop Up */
 
 .logInForm {
-    background-color: #5F4B4B;
+    background-color: #FFF;
+    color: #5F4B4B;
 }
 
 .illustrationForm {
-    background-color: #A09393;
+    background-color: #5F4B4B;
 }
 
 .illustrationForm img {
@@ -104,7 +108,7 @@ body {
 }
 
 .btn-login-form {
-    background-color: #896D6D;
+    background-color: #5F4B4B;
     color: #FFF;
     border-color: #5F4B4B;
 }
@@ -116,23 +120,23 @@ body {
 }
 
 .bknSiswa {
-    color: #FFF;
+    color: #5F4B4B;
     text-decoration: none;
 }
 
 .bknSiswa:hover {
-    color: #FFF;
+    color: #5F4B4B;
     text-decoration: underline;
 }
 
 .formDivider {
     width: 20%;
-    color: #FFF;
-}
-
-.experienceHeader {
     color: #5F4B4B;
 }
+
+/*.experienceHeader {
+    color:#7b6161;
+}*/
 
 /* End Login Pop Up */
 
@@ -172,7 +176,7 @@ body {
 }
 
 .btn-ajukan:hover {
-    background-color: #4d3d3d;
+    background-color: #7b6161;
     color: #FFF;
     border-color: #5F4B4B;
 }
@@ -201,7 +205,7 @@ thead, td {
 }
 
 .btn-search:hover {
-    background-color: #4d3d3d;
+    background-color: #7b6161;
     color: #FFF;
 }
 
@@ -232,7 +236,7 @@ thead, td {
 }
 
 .btn-jurusan-dropdown:hover {
-    background-color: #4d3d3d;
+    background-color: #7b6161;
     color: #FFF;
 }
 
