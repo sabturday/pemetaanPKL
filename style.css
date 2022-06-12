@@ -327,10 +327,14 @@ thead, td {
     padding-left: 0;
 }
 
-/* End Tentang*/
+/* End Tentang */
 
 footer {
     font-size: 12px;
+}
+
+.fontWeight {
+    font-weight: 500;
 }
 
 @media (min-width: 600px) {
