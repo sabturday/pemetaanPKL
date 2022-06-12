@@ -36,6 +36,7 @@ body {
 }
 
 .fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info, .fa-paper-plane, .fa-list-ul {
+    width: 16px;
     margin-right: 12px;
 }
 
