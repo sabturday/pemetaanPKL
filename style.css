@@ -340,22 +340,27 @@ footer {
     font-weight: 500;
 }
 
-@media (min-width: 600px) {
-
+@media only screen and (min-width: 960px) {
     .btn-open-navbar {
         display: none;
     }
-
 }
 
-@media (max-width: 425px) {
-
-    .navFlex {
+@media only screen and (min-width: 1440px) {
+    .btn-open-navbar {
         display: none;
     }
+}
 
-    .searchBar {
-        margin-top: 3%;
+@media only screen and (min-width: 2000px) {
+    .btn-open-navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .navFlex {
+        display: none;
     }
 
     .profileNav {
@@ -365,4 +370,47 @@ footer {
         right: 0;
     }
 
+    .searchBar {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .navFlex {
+        display: none;
+    }
+
+    .profileNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .searchBar {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .navFlex {
+        display: none;
+    }
+
+    .profileNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .searchBar {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    .btn-open-navbar {
+        display: none;
+    }
 }
