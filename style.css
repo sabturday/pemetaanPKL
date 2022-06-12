@@ -35,14 +35,6 @@ body {
     width: max-content;
 }
 
-/*.hubinBox {
-    height: 33vh;
-}
-
-.secondBox {
-    height: 33vh;
-}*/
-
 .fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info, .fa-paper-plane, .fa-list-ul {
     margin-right: 12px;
 }
@@ -171,6 +163,9 @@ body {
 .fa-comments, .fa-building, .fa-headset {
     font-size: 50px;
 }
+
+/* Pop Up Konfirmasi Ajukan */
+
 
 /* End Option Box */
 
@@ -305,8 +300,12 @@ thead, td {
 
 /* Pop Up Konfirmasi */
 
-.modalKonfirmasi {
+.modalKonfirmasi, .modalKonfirmasiAjukan {
     background-color: #5F4B4B;
+}
+
+.peringatan {
+    background-color: red;
 }
 
 /* Tentang */
