@@ -35,13 +35,13 @@ body {
     width: max-content;
 }
 
-.hubinBox {
+/*.hubinBox {
     height: 33vh;
 }
 
 .secondBox {
     height: 33vh;
-}
+}*/
 
 .fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info, .fa-paper-plane, .fa-list-ul {
     margin-right: 12px;
