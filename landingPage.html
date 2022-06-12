@@ -16,9 +16,37 @@
 
     <body>
 
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvasExample">Open</button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
+            <div class="offcanvas-header">
+                <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="nav flex-column mainNav">
+                    <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-house"></i>Beranda</a>
+                    <a class="nav-link" href="dataPemetaan.html"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                    <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
+                </nav>
+                <nav class="nav flex-column mainNav">
+                    <a class="nav-link" href="pengaturan.html"><i class="fa-solid fa-gear"></i>Pengaturan</a>
+                    <a class="nav-link" href="tentang.html"><i class="fa-solid fa-circle-info"></i>Tentang</a>
+                </nav>
+                <div class="profileNav">
+                    <div class="container">
+                        <div class="row row-cols-3 containerProfile">
+                            <div class="col-1"><i class="fa-solid fa-user"></i></div>
+                            <div class="col-9"><p class="unameNav">Guest</p></div>
+                            <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="d-flex bd-highlight">
             <!-- Navbar -->
-            <div class="flex-shrink-auto bd-highlight">
+            <div class="flex-shrink-auto bd-highlight navFlex offcanvas offcanvas-start">
                 <div class="col-sm-auto sticky-top">
                     <div class="d-inline-flex flex-column border-end navContainer">
                         <div class="p-2 bd-highlight hubinBox">
@@ -39,7 +67,7 @@
                         </div>
                         <div class="p-2 bd-highlight profileNav">
                             <div class="container">
-                                <div class="row row-cols-auto containerProfile">
+                                <div class="row row-cols-3 containerProfile">
                                     <div class="col-1"><i class="fa-solid fa-user"></i></div>
                                     <div class="col-9"><p class="unameNav">Guest</p></div>
                                     <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
@@ -52,15 +80,15 @@
             <!-- End Navbar -->
 
             <!-- Main -->
-            <div class="w-100 bd-highlight align-self-center">
-                <main class="mainContainer p-5">
+            <div class="w-100 bd-highlight align-self-center firstContainer">
+                <main class="mainContainer m-5">
                     <h1 class="fw-bold">PRAKTEK KERJA INDUSTRI</h1>
                     <h2 class="fw-light">SMKN 13 BANDUNG</h2>
                     <hr class="mainDivider">
                     <p>Login untuk melanjutkan</p>
                     <button type="button" class="btn btn-main-login" data-bs-toggle="modal" data-bs-target="#logInPopUp">Log In</button>
-                    <!--<footer class="position-absolute bottom-0 start-50 translate-middle-x"><p>&copy; Team HU13IN | Version 1.1</p></footer>-->
                 </main>
+                <footer class="sticky-bottom ms-5"><p>&copy; Team HU13IN | Version 1.1</p></footer>
             </div>
             <!-- End Main -->
 
@@ -68,7 +96,7 @@
             <div class="modal fade" id="logInPopUp" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                     <div class="modal-content border-0">
-                        <div class="modal-header border-0 p-0">
+                        <div class="modal-header border-0 p-0 position-relative">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="row no-gutters me-0">
@@ -101,7 +129,7 @@
                                 <div class="modal-body p-0 d-flex text-center d-flex align-items-center">
                                     <div class="text-start p-5">
                                         <h1 class="fw-bold text-white">EXPAND YOUR</h1>
-                                        <h1 class="fw-bold experienceHeader text-white">EXPERIENCE!</h1>
+                                        <h1 class="fw-bold experienceHeader">EXPERIENCE!</h1>
                                         <img class="img-fluid" src="assets/login.svg">
                                     </div>
                                 </div>

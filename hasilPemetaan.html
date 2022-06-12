@@ -18,7 +18,7 @@
 
         <div class="d-flex bd-highlight">
             <!-- Navbar -->
-            <div class="flex-shrink-auto bd-highlight">
+            <div class="flex-shrink-auto bd-highlight navFlex">
                 <div class="col-sm-auto sticky-top">
                     <div class="d-inline-flex flex-column border-end position-sticky navContainer">
                         <div class="p-2 bd-highlight hubinBox">
@@ -39,7 +39,7 @@
                         </div>
                         <div class="p-2 bd-highlight profileNav">
                             <div class="container">
-                                <div class="row row-cols-auto containerProfile">
+                                <div class="row row-cols-3 containerProfile">
                                     <div class="col-1"><i class="fa-solid fa-user"></i></div>
                                     <div class="col-9"><p class="unameNav">Guest</p></div>
                                     <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
@@ -66,106 +66,108 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-auto">
+                        <div class="col-sm-auto searchBar">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Nama/Alamat Industri">
                                 <button class="btn btn-search" type="button" id="button-addon2">Cari</button>
                             </div>
                         </div>
                     </div>
-                    <table class="table table-striped mt-3 mb-3">
-                        <thead>
-                            <th scope="col">#</th>
-                            <th scope="col">Nama</th>
-                            <th scope="col">Alamat</th>
-                            <th scope="col">Jurusan</th>
-                            <th scope="col">Kuota</th>
-                            <th scope="col">Pembimbing</th>
-                            <th scope="col">Siswa</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"></th>
-                                <td>PT. Elektro</td>
-                                <td>Jl. Soekarno Hatta</td>
-                                <td>
-                                    <ul class="listJurusan ps-0">
-                                        <li><span class="badge badge-rpl">RPL</span></li>
-                                        <li><span class="badge badge-tkj">TKJ</span></li>
-                                    </ul>
-                                </td>
-                                <td>3/4</td>
-                                <td>Kartika S,Pd.</td>
-                                <td>
-                                    <ol class="listSiswa ps-0">
-                                        <li>Icad</li>
-                                        <li>Kimad</li>
-                                        <li>Cukil</li>
-                                    </ol>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td>PT. Kimia</td>
-                                <td>Jl. Cibiru Wetan</td>
-                                <td>
-                                    <ul class="listJurusan ps-0">
-                                        <li><span class="badge badge-ak">AK</span></li>
-                                    </ul>
-                                </td>
-                                <td>4/4</td>
-                                <td>Santoso M,Pd.</td>
-                                <td>
-                                    <ol class="listSiswa ps-0">
-                                        <li>Sabibin</li>
-                                        <li>Bangsad</li>
-                                        <li>Kudil</li>
-                                        <li>Lingling</li>
-                                    </ol>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td>PT. Kimia</td>
-                                <td>Jl. Cibiru Wetan</td>
-                                <td>
-                                    <ul class="listJurusan ps-0">
-                                        <li><span class="badge badge-ak">AK</span></li>
-                                    </ul>
-                                </td>
-                                <td>4/4</td>
-                                <td>Santoso M,Pd.</td>
-                                <td>
-                                    <ol class="listSiswa ps-0">
-                                        <li>Sabibin</li>
-                                        <li>Bangsad</li>
-                                        <li>Kudil</li>
-                                        <li>Lingling</li>
-                                    </ol>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td>PT. Kimia</td>
-                                <td>Jl. Cibiru Wetan</td>
-                                <td>
-                                    <ul class="listJurusan ps-0">
-                                        <li><span class="badge badge-ak">AK</span></li>
-                                    </ul>
-                                </td>
-                                <td>4/4</td>
-                                <td>Santoso M,Pd.</td>
-                                <td>
-                                    <ol class="listSiswa ps-0">
-                                        <li>Sabibin</li>
-                                        <li>Bangsad</li>
-                                        <li>Kudil</li>
-                                        <li>Lingling</li>
-                                    </ol>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table-striped mt-3 mb-3">
+                            <thead>
+                                <th scope="col">#</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">Alamat</th>
+                                <th scope="col">Jurusan</th>
+                                <th scope="col">Kuota</th>
+                                <th scope="col">Pembimbing</th>
+                                <th scope="col">Siswa</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PT. Elektro</td>
+                                    <td>Jl. Soekarno Hatta</td>
+                                    <td>
+                                        <ul class="listJurusan ps-0">
+                                            <li><span class="badge badge-rpl">RPL</span></li>
+                                            <li><span class="badge badge-tkj">TKJ</span></li>
+                                        </ul>
+                                    </td>
+                                    <td>3/4</td>
+                                    <td>Kartika S,Pd.</td>
+                                    <td>
+                                        <ol class="listSiswa ps-0">
+                                            <li>Icad</li>
+                                            <li>Kimad</li>
+                                            <li>Cukil</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PT. Kimia</td>
+                                    <td>Jl. Cibiru Wetan</td>
+                                    <td>
+                                        <ul class="listJurusan ps-0">
+                                            <li><span class="badge badge-ak">AK</span></li>
+                                        </ul>
+                                    </td>
+                                    <td>4/4</td>
+                                    <td>Santoso M,Pd.</td>
+                                    <td>
+                                        <ol class="listSiswa ps-0">
+                                            <li>Sabibin</li>
+                                            <li>Bangsad</li>
+                                            <li>Kudil</li>
+                                            <li>Lingling</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PT. Kimia</td>
+                                    <td>Jl. Cibiru Wetan</td>
+                                    <td>
+                                        <ul class="listJurusan ps-0">
+                                            <li><span class="badge badge-ak">AK</span></li>
+                                        </ul>
+                                    </td>
+                                    <td>4/4</td>
+                                    <td>Santoso M,Pd.</td>
+                                    <td>
+                                        <ol class="listSiswa ps-0">
+                                            <li>Sabibin</li>
+                                            <li>Bangsad</li>
+                                            <li>Kudil</li>
+                                            <li>Lingling</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PT. Kimia</td>
+                                    <td>Jl. Cibiru Wetan</td>
+                                    <td>
+                                        <ul class="listJurusan ps-0">
+                                            <li><span class="badge badge-ak">AK</span></li>
+                                        </ul>
+                                    </td>
+                                    <td>4/4</td>
+                                    <td>Santoso M,Pd.</td>
+                                    <td>
+                                        <ol class="listSiswa ps-0">
+                                            <li>Sabibin</li>
+                                            <li>Bangsad</li>
+                                            <li>Kudil</li>
+                                            <li>Lingling</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
                             <li class="page-item">
@@ -179,8 +181,8 @@
                             </li>
                         </ul>
                     </nav>
-                    <!--<footer class="position-absolute bottom-0 start-50 translate-middle-x"><p>&copy; Team HU13IN | Version 1.1</p></footer>-->
                 </main>
+                <footer class="sticky-bottom ms-5"><p>&copy; Team HU13IN | Version 1.1</p></footer>
             </div>
             <!-- End Main -->
 

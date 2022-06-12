@@ -6,9 +6,8 @@
 }
 
 body {
-    background-color: #FFF;
+    background-color: #EFEFEF;
 }
-
 
 /* Navbar */
 
@@ -33,6 +32,7 @@ body {
 
 .navContainer {
     height: 100vh;
+    width: max-content;
 }
 
 .hubinBox {
@@ -91,12 +91,12 @@ body {
 /* Login Pop Up */
 
 .logInForm {
-    background-color: #FFF;
-    color: #5F4B4B;
+    background-color: #5F4B4B;
+    color: #FFF;
 }
 
 .illustrationForm {
-    background-color: #5F4B4B;
+    background-color: #AB7260;
 }
 
 .illustrationForm img {
@@ -104,44 +104,41 @@ body {
 }
 
 .btn-login-form {
-    background-color: #5F4B4B;
+    background-color: #AB7260;
     color: #FFF;
-    border-color: #5F4B4B;
+    border-color: #AB7260;
 }
 
 .btn-login-form:hover {
-    background-color: #7b6161;
+    background-color: #ac7a6b;
     color: #FFF;
-    border-color: #5F4B4B;
+    border-color: #ac7a6b;
 }
 
-.btn-close {
-    position: fixed;
-    top: 0;
-    right: 0;
+.modal-header > .btn-close {
+    position: absolute;
     z-index: 1;
-    width: 15%;
-    height: 18%;
+    top: 5%;
+    right: 5%;
 }
 
 .bknSiswa {
-    color: #5F4B4B;
+    color: #FFF;
     text-decoration: none;
 }
 
 .bknSiswa:hover {
-    color: #5F4B4B;
+    color: #FFF;
     text-decoration: underline;
 }
 
 .formDivider {
     width: 20%;
-    color: #5F4B4B;
 }
 
-/*.experienceHeader {
-    color:#7b6161;
-}*/
+.experienceHeader {
+    color:#5F4B4B;
+}
 
 /* End Login Pop Up */
 
@@ -251,6 +248,62 @@ thead, td {
 
 /* End Form Data Pemetaan */
 
+/* Detail Pemetaan */
+
+.dataLink {
+    color: #5F4B4B;
+    text-decoration: none;
+}
+
+.dataLink:hover {
+    color: #5F4B4B;
+    text-decoration: underline;
+}
+
+.btn-pilih, .btn-kembali:hover {
+    background-color: #5F4B4B;
+    color: #FFF;
+    border-color: #5F4B4B;
+}
+
+.btn-pilih:hover{
+    background-color: #7b6161;
+    color: #FFF;
+    border-color: #7b6161;
+}
+
+.btn-kembali {
+    background-color: transparent;
+    color: #5F4B4B;
+    border-color: #5F4B4B;
+}
+
+.btn-yakin, .btn-batal:hover {
+    background-color: #AB7260;
+    border-color: #AB7260;
+    color: #FFF;
+}
+
+.btn-yakin:hover {
+    background-color: #ac7a6b;
+    border-color: #ac7a6b;
+    color: #FFF;
+}
+
+.btn-batal {
+    background-color: transparent;
+    border-color: #AB7260;
+    color: #FFF;
+}
+
+/* End Detail Pemetaan */
+
+/* Pop Up Konfirmasi */
+
+.modalKonfirmasi {
+    background-color: #5F4B4B;
+}
+
 /* Tentang */
 
 .socmed {
@@ -265,6 +318,27 @@ thead, td {
     font-size: 20px;
 }
 
+/* End Tentang*/
+
 footer {
     font-size: 12px;
+}
+
+@media (max-width: 420px) {
+
+    .navFlex {
+        display: none;
+    }
+
+    .searchBar {
+        margin-top: 3%;
+    }
+
+    .profileNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
 }
