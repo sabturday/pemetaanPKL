@@ -323,46 +323,26 @@ thead, td {
     font-size: 20px;
 }
 
+.devContainer > .row > .col {
+    text-align: left;
+    padding-left: 0;
+}
+
 /* End Tentang*/
 
 footer {
     font-size: 12px;
 }
 
-@media screen and (min-width: 769px) {
+@media (min-width: 600px) {
+
     .btn-open-navbar {
         display: none;
     }
+
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-    .btn-open-navbar {
-        display: none;
-    }
-}
-
-@media only screen and (max-device-width: 480px) {
-    .navFlex {
-        display: none;
-    }
-
-    .searchBar {
-        margin-top: 3%;
-    }
-
-    .profileNav {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .devContainer {
-        justify-content: start;
-    }
-}
-
-/*@media (max-width: 425px) {
+@media (max-width: 425px) {
 
     .navFlex {
         display: none;
@@ -379,14 +359,4 @@ footer {
         right: 0;
     }
 
-    .devContainer {
-        justify-content: start;
-    }
-
 }
-
-@media (min-width: 425px) {
-    .btn-open-navbar {
-        display: none;
-    }
-}*/
