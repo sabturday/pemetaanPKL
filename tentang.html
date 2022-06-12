@@ -16,6 +16,40 @@
 
     <body>
 
+        <!-- Navbar Mobile -->
+        <button class="btn btn-open-navbar rounded-circle m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvasExample">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
+            <div class="offcanvas-header">
+                <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="nav flex-column mainNav">
+                    <a class="nav-link" href="landingPageSiswa.html"><i class="fa-solid fa-house"></i>Beranda</a>
+                    <a class="nav-link" href="ajukanIndustri.html"><i class="fas fa-paper-plane"></i>Ajukan Industri</a>
+                    <a class="nav-link" href="dataPemetaan.html"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                    <a class="nav-link" href="pilihIndustri.html"><i class="fa-solid fa-list-ul"></i>Pilih Industri</a>
+                    <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
+                </nav>
+                <nav class="nav flex-column mainNav">
+                    <a class="nav-link" href="pengaturan.html"><i class="fa-solid fa-gear"></i>Pengaturan</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-circle-info"></i>Tentang</a>
+                </nav>
+                <div class="profileNav">
+                    <div class="container">
+                        <div class="row row-cols-3 containerProfile">
+                            <div class="col-1"><i class="fa-solid fa-user"></i></div>
+                            <div class="col-9"><p class="unameNav">Guest</p></div>
+                            <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Mobile -->
+
         <div class="d-flex bd-highlight">
             <!-- Navbar -->
             <div class="flex-shrink-auto bd-highlight navFlex">
@@ -27,7 +61,9 @@
                         <div class="p-2 bd-highlight mainBox">
                             <nav class="nav flex-column mainNav">
                                 <a class="nav-link" href="landingPageSiswa.html"><i class="fa-solid fa-house"></i>Beranda</a>
+                                <a class="nav-link" href="ajukanIndustri.html"><i class="fas fa-paper-plane"></i>Ajukan Industri</a>
                                 <a class="nav-link" href="dataPemetaan.html"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                                <a class="nav-link" href="pilihIndustri.html"><i class="fas fa-list-ul"></i>Pilih Industri</a>
                                 <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
                             </nav>
                         </div>
@@ -39,7 +75,7 @@
                         </div>
                         <div class="p-2 bd-highlight profileNav">
                             <div class="container">
-                                <div class="row row-cols-3 containerProfile">
+                                <div class="row containerProfile">
                                     <div class="col-1"><i class="fa-solid fa-user"></i></div>
                                     <div class="col-9"><p class="unameNav">Guest</p></div>
                                     <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
@@ -58,7 +94,7 @@
                     <p class="mb-5">Pemetaan PKL adalah salah satu program HUBIN&HUMAS SMKN 13 Bandung yang dirancang untuk memudahkan pendataan siswa/i SMKN 13 Bandung Pra PKL (Praktek Kerja Industri).</p>
                     <h2 class="mb-3">Developer</h2>
                     <div class="container">
-                        <div class="row row-cols-1 row-cols-lg-3 justify-content-center">
+                        <div class="row row-cols-1 row-cols-lg-3 justify-content-start justify-content-center">
                             <div class="col text-center mb-3">
                                 <img src="assets/Irsyaad.png" width="150px" class="img-fluid shadow" alt="Irsyaad">
                                 <h6 class="pt-3">Muhammad Irsyaad Fatahilah</h6>
@@ -68,7 +104,7 @@
                                 <a href="https://www.instagram.com/caadd__/" target="_blank" class="socmed"><i class="fab fa-instagram-square"></i></a>
                                 <a href="https://www.linkedin.com/in/irsyaad-fatahilah-906b64214/" target="_blank" class="socmed"><i class="fab fa-linkedin"></i></a>
                             </div>
-                            <div class="col text-center">
+                            <div class="col text-center mb-3">
                                 <img src="assets/Fadhil.png" width="150px" class="img-fluid shadow" alt="Fadhil">
                                 <h6 class="pt-3">Fadhil Maulana</h6>
                                 <p class="mb-2">Quality Assurance</p>
@@ -77,7 +113,7 @@
                                 <a href="https://www.instagram.com/fadhilmuln_/" target="_blank" class="socmed"><i class="fab fa-instagram-square"></i></a>
                                 <a href="https://www.linkedin.com/in/fadhilmuln-1234" target="_blank" class="socmed"><i class="fab fa-linkedin"></i></a>
                             </div>
-                            <div class="col text-center">
+                            <div class="col text-center mb-3">
                                 <img src="assets/Rashad.png" width="150px" class="img-fluid shadow" alt="Rashad">
                                 <h6 class="pt-3">Rashad Razikin Zulkarnaen</h6>
                                 <p class="mb-2">Data Administrator</p>
@@ -86,7 +122,7 @@
                                 <a href="https://www.instagram.com/rashad.r.z/" target="_blank" class="socmed"><i class="fab fa-instagram-square"></i></a>
                                 <a href="http://www.linkedin.com/in/rashad-razikin-zulkarnaen-aa47b6223" target="_blank" class="socmed"><i class="fab fa-linkedin"></i></a>
                             </div>
-                            <div class="col text-center">
+                            <div class="col text-center mb-3">
                                 <img src="assets/Sabrina.png" width="150px" class="img-fluid shadow" alt="Sabrina">
                                 <h6 class="pt-3">Sabrina Misyell Aaliyah</h6>
                                 <p class="mb-2">Front-End Developer</p>
@@ -95,7 +131,7 @@
                                 <a href="https://www.instagram.com/tkqmflsk/" target="_blank" class="socmed"><i class="fab fa-instagram-square"></i></a>
                                 <a href="https://www.linkedin.com/in/sabrinamisyell/" target="_blank" class="socmed"><i class="fab fa-linkedin"></i></a>
                             </div>
-                            <div class="col text-center">
+                            <div class="col text-center mb-3">
                                 <img src="assets/Rifki.png" width="150px" class="img-fluid shadow" alt="Rifki">
                                 <h6 class="pt-3">Rifki Ahmad Maulana</h6>
                                 <p class="mb-2">Front-End Developer</p>

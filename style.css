@@ -43,7 +43,7 @@ body {
     height: 33vh;
 }
 
-.fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info {
+.fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info, .fa-paper-plane, .fa-list-ul {
     margin-right: 12px;
 }
 
@@ -64,6 +64,11 @@ body {
 
 .containerProfile {
     padding: 15px 0 0 5px;
+}
+
+.btn-open-navbar {
+    background-color: #5F4B4B;
+    color: #FFF;
 }
 
 /* End Navbar */
@@ -324,7 +329,40 @@ footer {
     font-size: 12px;
 }
 
-@media (max-width: 420px) {
+@media screen and (min-width: 769px) {
+    .btn-open-navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .btn-open-navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .navFlex {
+        display: none;
+    }
+
+    .searchBar {
+        margin-top: 3%;
+    }
+
+    .profileNav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .devContainer {
+        justify-content: start;
+    }
+}
+
+/*@media (max-width: 425px) {
 
     .navFlex {
         display: none;
@@ -341,4 +379,14 @@ footer {
         right: 0;
     }
 
+    .devContainer {
+        justify-content: start;
+    }
+
 }
+
+@media (min-width: 425px) {
+    .btn-open-navbar {
+        display: none;
+    }
+}*/
