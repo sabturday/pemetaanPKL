@@ -165,9 +165,6 @@ body {
     font-size: 50px;
 }
 
-/* Pop Up Konfirmasi Ajukan */
-
-
 /* End Option Box */
 
 /* Form Ajukan Industri */
@@ -245,6 +242,11 @@ thead, td {
 
 .page-link, .page-link:hover {
     color: #5F4B4B;
+}
+
+.page-item.active .page-link {
+    background-color: #5F4B4B; 
+    border-color: #5F4B4B;
 }
 
 /* End Form Data Pemetaan */
