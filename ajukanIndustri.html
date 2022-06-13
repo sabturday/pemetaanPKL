@@ -17,7 +17,7 @@
     <body>
 
         <!-- Navbar Mobile -->
-        <button class="btn btn-open-navbar rounded-circle m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvasExample">
+        <button class="btn btn-open-navbar rounded-3 m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvasExample">
             <i class="fas fa-bars"></i>
         </button>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
@@ -108,12 +108,20 @@
                             <label for="kontakIndustri" class="col-sm-2 col-form-label">Kontak Industri</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control w-50" id="kontakIndustri" required>
+                                <div class="form-text">Berupa email atau nomor telepon</div>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label for="alamatLengkapIndustri" class="col-sm-2 col-form-label">Alamat Lengkap Industri</label>
                             <div class="col-sm-10">
                                 <textarea class="form-control w-50" id="alamatLengkapIndustri" rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="catatanIndustri" class="col-sm-2 col-form-label">Catatan</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control w-50" id="catatanIndustri" rows="3" required></textarea>
+                                <div class="form-text">Berupa syarat dan ketentuan untuk masuk. Contoh: Menguasai laravel, menguasai mikrobiologi</div>
                             </div>
                         </div>
                         <div class="row mb-3">

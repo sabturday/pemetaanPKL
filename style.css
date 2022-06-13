@@ -14,6 +14,7 @@ body {
 .hubinLink {
     color: #5F4B4B;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .hubinLink:hover {
@@ -24,10 +25,17 @@ body {
 .fa-arrow-left {
     color: #5F4B4B;
     margin-right: 5px;
+    font-size: 13px;
 }
 
-.mainNav a, .mainNav a:hover {
+.mainNav a {
     color: #5F4B4B;
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+
+nav > a > i {
+    min-width: 26px;
 }
 
 .navContainer {
@@ -36,14 +44,22 @@ body {
 }
 
 .fa-house, .fa-file-lines, .fa-check, .fa-gear, .fa-circle-info, .fa-paper-plane, .fa-list-ul {
-    width: 16px;
-    margin-right: 12px;
+    width: 14px;
 }
 
-.mainNav > .active{
+.mainNav > .active {
     background-color: #5F4B4B;
+    color: #FFF;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 8px;
+    padding: 15px 0 15px 15px;
+}
+
+.mainNav a:hover {
+    background-color: #7b6161;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 15px 0 15px 15px;
 }
 
 .profileNav {
@@ -70,6 +86,14 @@ body {
 
 .mainContainer {
     color: #5F4B4B;
+}
+
+.pkiHeader {
+    font-size: 48px;
+}
+
+.schHeader {
+    font-size: 44px;
 }
 
 .btn-main-login {
@@ -147,6 +171,11 @@ body {
     height: 200px;
     border-radius: 20px;
     color: #FFF;
+    cursor: pointer;
+}
+
+.ajukanBox:hover, .pilihBox:hover, .hubungiBox:hover {
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
 }
 
 .ajukanBox {
@@ -325,11 +354,6 @@ thead, td {
     font-size: 20px;
 }
 
-.devContainer > .row > .col {
-    text-align: left;
-    padding-left: 0;
-}
-
 /* End Tentang */
 
 footer {
@@ -344,17 +368,29 @@ footer {
     .btn-open-navbar {
         display: none;
     }
+
+    .devContainer > .row > .col {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     .btn-open-navbar {
         display: none;
     }
+
+    .devContainer > .row > .col {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 2000px) {
     .btn-open-navbar {
         display: none;
+    }
+
+    .devContainer > .row > .col {
+        text-align: center;
     }
 }
 
@@ -373,6 +409,10 @@ footer {
     .searchBar {
         margin-top: 3%;
     }
+
+    .devContainer > .row > .col {
+        text-align: start;
+    }
 }
 
 @media only screen and (device-width: 768px) {
@@ -390,6 +430,10 @@ footer {
     .searchBar {
         margin-top: 3%;
     }
+
+    .devContainer > .row > .col {
+        text-align: start;
+    }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
@@ -406,6 +450,10 @@ footer {
 
     .searchBar {
         margin-top: 3%;
+    }
+
+    .devContainer > .row > .col {
+        text-align: start;
     }
 }
 
