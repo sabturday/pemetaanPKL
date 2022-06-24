@@ -364,6 +364,10 @@ footer {
     width: max-content;
 }
 
+.btn-open-navbar:hover {
+    background-color: #7b6161;
+}
+
 .fa-bars:hover {
     color: #FFF;
 }
