@@ -364,6 +364,10 @@ footer {
     width: max-content;
 }
 
+.fa-bars:hover {
+    color: #FFF;
+}
+
 @media only screen and (max-width: 770px) {
     .navFlex {
         display: none;
