@@ -22,28 +22,30 @@
         </button>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
             <div class="offcanvas-header">
-                <!--<a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>-->
+                <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                <nav class="nav flex-column mainNav">
-                    <a class="nav-link" href="landingPageSiswa.html"><i class="fa-solid fa-house"></i>Beranda</a>
-                    <a class="nav-link" href="ajukanIndustri.html"><i class="fas fa-paper-plane"></i>Ajukan Industri</a>
-                    <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
-                    <a class="nav-link" href="pilihIndustri.html"><i class="fa-solid fa-list-ul"></i>Pilih Industri</a>
-                    <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
-                </nav>
-                <nav class="nav flex-column mainNav">
-                    <a class="nav-link" href="pengaturan.html"><i class="fa-solid fa-gear"></i>Pengaturan</a>
-                    <a class="nav-link" href="tentang.html"><i class="fa-solid fa-circle-info"></i>Tentang</a>
-                </nav>
-                <div class="profileNav">
-                    <div class="container">
-                        <div class="row row-cols-3 containerProfile">
-                            <div class="col-1"><i class="fa-solid fa-user"></i></div>
-                            <div class="col-9"><p class="unameNav">Guest</p></div>
-                            <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
-                        </div>
+            <div class="offcanvas-body p-0 d-flex bd-highlight">
+                <div class="d-inline-flex flex-column">
+                    <div class="p-2 bd-highlight mainBox">
+                        <nav class="nav flex-column mainNav">
+                            <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-house"></i>Beranda</a>
+                            <a class="nav-link" href="ajukanIndustri.html"><i class="fas fa-paper-plane"></i>Ajukan Industri</a>
+                            <a class="nav-link" href="dataPemetaan.html"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                            <a class="nav-link" href="pilihIndustri.html"><i class="fas fa-list-ul"></i>Pilih Industri</a>
+                            <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
+                        </nav>
+                    </div>
+                    <div class="p-2 bd-highlight border-top secondBox flex-grow-1">
+                        <nav class="nav flex-column mainNav">
+                            <a class="nav-link" href="pengaturan.html"><i class="fa-solid fa-gear"></i>Pengaturan</a>
+                            <a class="nav-link" href="tentang.html"><i class="fa-solid fa-circle-info"></i>Tentang</a>
+                        </nav>
+                    </div>
+                    <div class="d-inline-flex p-4 bd-highlight align-items-end profileNav">
+                        <div><i class="fa-solid fa-user"></i></div>
+                        <div class="flex-grow-1"><p class="m-0 ms-3">Guest</p></div>
+                        <div><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -56,13 +58,13 @@
                 <div class="col-sm-auto sticky-top">
                     <div class="d-inline-flex flex-column border-end navContainer">
                         <div class="p-2 bd-highlight hubinBox flex-grow-1">
-                            <!--<a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>-->
+                            <a href="#" class="hubinLink"><i class="fas fa-arrow-left"></i>Kembali ke HUBIN&HUMAS</a>
                         </div>
                         <div class="p-2 bd-highlight mainBox">
                             <nav class="nav flex-column mainNav">
-                                <a class="nav-link" href="landingPageSiswa.html"><i class="fa-solid fa-house"></i>Beranda</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-house"></i>Beranda</a>
                                 <a class="nav-link" href="ajukanIndustri.html"><i class="fas fa-paper-plane"></i>Ajukan Industri</a>
-                                <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
+                                <a class="nav-link" href="dataPemetaan.html"><i class="fa-solid fa-file-lines"></i>Data Pemetaan</a>
                                 <a class="nav-link" href="pilihIndustri.html"><i class="fas fa-list-ul"></i>Pilih Industri</a>
                                 <a class="nav-link" href="hasilPemetaan.html"><i class="fa-solid fa-check"></i>Hasil Data Pemetaan</a>
                             </nav>
@@ -73,14 +75,10 @@
                                 <a class="nav-link" href="tentang.html"><i class="fa-solid fa-circle-info"></i>Tentang</a>
                             </nav>
                         </div>
-                        <div class="p-2 bd-highlight profileNav">
-                            <div class="container">
-                                <div class="row containerProfile">
-                                    <div class="col-1"><i class="fa-solid fa-user"></i></div>
-                                    <div class="col-9"><p class="unameNav">Guest</p></div>
-                                    <div class="col-1"><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
-                                </div>
-                            </div>
+                        <div class="d-inline-flex p-4 bd-highlight align-items-end profileNav">
+                            <div><i class="fa-solid fa-user"></i></div>
+                            <div class="flex-grow-1"><p class="m-0 ms-3">Guest</p></div>
+                            <div><a href="#" class="logoutLink text-white"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div>
                         </div>
                     </div>
                 </div>

@@ -68,13 +68,6 @@ nav > a > i {
 .profileNav {
     color: #FFF;
     background-color: #5F4B4B;
-}
-
-.unameNav {
-    margin-left: 1%;
-}
-
-.containerProfile {
     padding: 15px 0 0 5px;
 }
 
@@ -91,7 +84,7 @@ nav > a > i {
     color: #5F4B4B;
 }
 
-.pkiHeader {
+.pklHeader {
     font-size: 48px;
 }
 
@@ -367,6 +360,24 @@ footer {
     font-weight: 500;
 }
 
+.offcanvas {
+    width: max-content;
+}
+
+@media only screen and (max-width: 770px) {
+    .navFlex {
+        display: none;
+    }
+
+    .searchBar {
+        margin-top: 3%;
+    }
+
+    .devContainer > .row > .col {
+        text-align: start;
+    }
+}
+
 @media only screen and (min-width: 960px) {
     .btn-open-navbar {
         display: none;
@@ -402,13 +413,6 @@ footer {
         display: none;
     }
 
-    .profileNav {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
     .searchBar {
         margin-top: 3%;
     }
@@ -423,13 +427,6 @@ footer {
         display: none;
     }
 
-    .profileNav {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
     .searchBar {
         margin-top: 3%;
     }
@@ -442,13 +439,6 @@ footer {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .navFlex {
         display: none;
-    }
-
-    .profileNav {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 
     .searchBar {
