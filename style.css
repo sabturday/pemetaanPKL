@@ -368,10 +368,6 @@ footer {
     background-color: #7b6161;
 }
 
-.fa-bars:hover {
-    color: #FFF;
-}
-
 @media only screen and (max-width: 770px) {
     .navFlex {
         display: none;
@@ -428,6 +424,7 @@ footer {
     .devContainer > .row > .col {
         text-align: start;
     }
+
 }
 
 @media only screen and (device-width: 768px) {
@@ -442,6 +439,7 @@ footer {
     .devContainer > .row > .col {
         text-align: start;
     }
+
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
